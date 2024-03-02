@@ -74,6 +74,30 @@
         "type": "boolean",
         "defaultValue": "false",
         "persistent": false
+      },
+      {
+        "objID": "7c835134-2ce9-49d9-b8c3-8ab5ec3c3f4c",
+        "name": "num_points",
+        "type": "integer",
+        "defaultValue": "250",
+        "persistent": false,
+        "native": false
+      },
+      {
+        "objID": "8e1a1bb9-3654-43cd-f999-ff3db648f3d4",
+        "name": "sa_version_index",
+        "type": "integer",
+        "defaultValue": "1",
+        "persistent": false,
+        "native": false
+      },
+      {
+        "objID": "1b6720b1-14f2-4ea5-a53f-5105c58457ee",
+        "name": "num_points_arr",
+        "type": "array:integer",
+        "defaultValue": "[250, 450]",
+        "persistent": false,
+        "native": false
       }
     ],
     "structures": [
@@ -105,13 +129,13 @@
           "type": "LoopActionComponent",
           "left": -324,
           "top": 51,
-          "width": 218,
+          "width": 285,
           "height": 70,
           "customInputs": [],
           "customOutputs": [],
           "variable": "i",
           "from": "0",
-          "to": "449",
+          "to": "num_points - 1",
           "step": "1",
           "version": 1
         },
@@ -135,9 +159,9 @@
         {
           "objID": "e820831f-aca4-4437-8c3a-08f2609c673c",
           "type": "SetVariableActionComponent",
-          "left": -178,
+          "left": -179,
           "top": -102,
-          "width": 453,
+          "width": 496,
           "height": 55,
           "customInputs": [],
           "customOutputs": [],
@@ -145,7 +169,7 @@
             {
               "objID": "46cdb7e3-3a08-4443-9068-a4ba0a60c35c",
               "variable": "trace_values",
-              "value": "Flow.makeArrayValue(\"array:struct:TraceValue\", 450)"
+              "value": "Flow.makeArrayValue(\"array:struct:TraceValue\", num_points)"
             }
           ]
         },
@@ -313,11 +337,11 @@
           "type": "IsTrueActionComponent",
           "left": 89,
           "top": -24,
-          "width": 92,
+          "width": 135,
           "height": 70,
           "customInputs": [],
           "customOutputs": [],
-          "value": "i < 450"
+          "value": "i < num_points"
         }
       ],
       "connectionLines": [
@@ -503,11 +527,11 @@
           "type": "IsTrueActionComponent",
           "left": 272,
           "top": -11,
-          "width": 92,
+          "width": 135,
           "height": 70,
           "customInputs": [],
           "customOutputs": [],
-          "value": "i < 450"
+          "value": "i < num_points"
         },
         {
           "objID": "0cf0de5a-1b78-404b-f892-2c9a8becd1b7",
@@ -1094,8 +1118,8 @@
             {
               "objID": "8106e9d3-6096-4e7d-83ef-8fd331fc0306",
               "type": "ButtonDashboardWidget",
-              "left": 17,
-              "top": 76,
+              "left": 16,
+              "top": 77,
               "width": 96,
               "height": 40,
               "customInputs": [],
@@ -1362,9 +1386,9 @@
               "objID": "1aa14114-fb04-4105-9aab-8bf4228536b4",
               "type": "LineChartWidget",
               "left": 0,
-              "top": -1,
+              "top": 0,
               "width": 872,
-              "height": 685,
+              "height": 684,
               "customInputs": [
                 {
                   "objID": "ab52b1ee-bae4-4d56-8651-47735331dc7e",
@@ -1421,7 +1445,7 @@
               "yAxisRangeOption": "floating",
               "yAxisRangeFrom": 0,
               "yAxisRangeTo": 10,
-              "maxPoints": "450",
+              "maxPoints": "num_points",
               "margin": {
                 "objID": "726da011-a6a6-4c84-d8fa-c1735e32ce2c",
                 "top": 50,
@@ -1878,7 +1902,7 @@
           "objID": "2d5d1dac-d379-49f0-ef9f-8ee820b2aab3",
           "type": "ButtonDashboardWidget",
           "left": 18,
-          "top": 15,
+          "top": 16,
           "width": 97,
           "height": 40,
           "customInputs": [],
@@ -2001,11 +2025,32 @@
           ]
         },
         {
+          "objID": "01ae4df6-78cf-4cab-fe13-91d055a3fbd9",
+          "type": "DropDownListDashboardWidget",
+          "left": 305,
+          "top": 22,
+          "width": 92,
+          "height": 24,
+          "customInputs": [],
+          "customOutputs": [],
+          "data": "sa_version_index",
+          "visible": "",
+          "style": {
+            "objID": "7d58732c-dbcd-4729-8a0a-657a798d2309",
+            "useStyle": "default",
+            "conditionalStyles": [],
+            "childStyles": []
+          },
+          "timeline": [],
+          "eventHandlers": [],
+          "options": "[\"TinySA\", \"TinySA Ultra\"]"
+        },
+        {
           "objID": "5bb8c8c2-13ea-428c-97c3-ca5b3f0fcb1f",
           "type": "TextDashboardWidget",
-          "left": 365,
-          "top": 1,
-          "width": 469,
+          "left": 459,
+          "top": 7,
+          "width": 413,
           "height": 60,
           "customInputs": [],
           "customOutputs": [],
@@ -2086,6 +2131,34 @@
               "value": "true"
             }
           ]
+        },
+        {
+          "objID": "427f2cd3-c383-4a59-8c8b-b94ed89d0efd",
+          "type": "SetVariableActionComponent",
+          "left": 560,
+          "top": -122,
+          "width": 324,
+          "height": 55,
+          "customInputs": [],
+          "customOutputs": [],
+          "entries": [
+            {
+              "objID": "23bf9831-5e01-4c0f-d644-27df0ca02e86",
+              "variable": "num_points",
+              "value": "num_points_arr[sa_version_index]"
+            }
+          ]
+        },
+        {
+          "objID": "79bc026c-c692-4735-e557-76dce23030ce",
+          "type": "WatchVariableActionComponent",
+          "left": 226,
+          "top": -210,
+          "width": 172,
+          "height": 54,
+          "customInputs": [],
+          "customOutputs": [],
+          "variable": "sa_version_index"
         }
       ],
       "connectionLines": [
@@ -2459,6 +2532,20 @@
           "output": "@seqout",
           "target": "0070edbf-2043-495e-ea74-558dc4cd565b",
           "input": "@seqin"
+        },
+        {
+          "objID": "21b65362-f8a0-4e49-ce8b-0743a02140a2",
+          "source": "79bc026c-c692-4735-e557-76dce23030ce",
+          "output": "variable",
+          "target": "427f2cd3-c383-4a59-8c8b-b94ed89d0efd",
+          "input": "@seqin"
+        },
+        {
+          "objID": "2b8b179c-957f-427f-a283-ad092a5f7d48",
+          "source": "d30fc9b7-118b-4e76-ddaa-173bb1302106",
+          "output": "False",
+          "target": "1aa14114-fb04-4105-9aab-8bf4228536b4",
+          "input": "reset"
         }
       ],
       "localVariables": [

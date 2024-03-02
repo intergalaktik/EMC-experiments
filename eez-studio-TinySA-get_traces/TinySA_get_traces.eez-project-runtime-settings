@@ -6,6 +6,11 @@
       "dataBits": 8,
       "stopBits": 1,
       "parity": "none"
-    }
+    },
+    "SA_version": [
+      "SA",
+      "ULTRA"
+    ],
+    "sa_version_index": 1
   }
 }
