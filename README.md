@@ -4,7 +4,7 @@ First blog in series is here:
 
 ![Probes](https://intergalaktik.eu/news/bb3-cm4-emc)
 
-## Work on this board is financed by NLnet foundation
+## Work on this project is financed by NLnet foundation
 
 ![NLnet](https://nlnet.nl/logo/banner.png)
 
