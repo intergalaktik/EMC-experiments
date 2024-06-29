@@ -1,12 +1,14 @@
 # EMC-experiments - probing
 
-![Probe](/pictures/VNA_probe_OS.jpg)
+![Probe](pictures/VNA_probe_OS.jpg)
 
 ![Probe on Prusa](pictures/ULX3S_holder_and_probe.jpg)
 
 ![Probing video](video/VID_20240203_174635.mp4)
 
-[Probe-design](https://github.com/dezanche/H-field_RF_probe)
+You can find Probe-design on original repository 
+
+https://github.com/dezanche/H-field_RF_probe
 
 ## Work on this project is financed by NLnet foundation
 
