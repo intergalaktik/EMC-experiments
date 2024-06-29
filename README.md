@@ -4,29 +4,31 @@ First blog in series is here:
 
 ![Probes](https://intergalaktik.eu/news/bb3-cm4-emc)
 
-For probes experiments check ![EMC-probes] https://github.com/intergalaktik/EMC-experiments/tree/main/EMC-probes
-
 Second blog in series is here: 
 
 ![Box](https://intergalaktik.eu/news/diy-emc-chamber)
 
-For Box designes check ![EMC-box]https://github.com/intergalaktik/EMC-experiments/tree/main/EMC-box
+For Box designes check
+
+![EMC-box](https://github.com/intergalaktik/EMC-experiments/tree/main/EMC-box)
 
 Third blog in series is here: 
 
 ![Pyramid](https://intergalaktik.eu/news/diy-emc-chamber-pyramid)
 
-For pyramid designs check ![EMC-pyramid]https://github.com/intergalaktik/EMC-experiments/tree/main/EMC-pyramid
+For pyramid designs check 
+
+![EMC-pyramid](https://github.com/intergalaktik/EMC-experiments/tree/main/EMC-pyramid)
 
 Fourth part is desiging an application that will guide you thrue meassurements.
 
 Application is writen in EEZ Studio and you can find it under TinySA-EMC folder.
 
-![App]https://github.com/intergalaktik/EMC-experiments/tree/main/TinySA-EMC
+![App](https://github.com/intergalaktik/EMC-experiments/tree/main/TinySA-EMC)
 
 Aditionaly we have made material holder that you can use with two probes to hold material in place while you are meassuring it.
 
-![Holder]https://github.com/intergalaktik/EMC-experiments/tree/main/EMC-probes-holder
+![Holder](https://github.com/intergalaktik/EMC-experiments/tree/main/EMC-probes-holder)
 
 ## Work on this project is financed by NLnet foundation
 
