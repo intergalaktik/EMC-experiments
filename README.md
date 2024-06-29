@@ -1,8 +1,6 @@
 # EMC-experiments
 
-First blog in series is here: 
-
-![Probes](https://intergalaktik.eu/news/bb3-cm4-emc)
+First blog in series is here ![Probes](https://intergalaktik.eu/news/bb3-cm4-emc)
 
 Second blog in series is here: 
 
