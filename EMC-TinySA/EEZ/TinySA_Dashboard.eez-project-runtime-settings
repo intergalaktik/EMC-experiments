@@ -1,0 +1,52 @@
+{
+  "__dockingManagerContainerLayouts": {
+    "[TinySA_Dashboard.eez-project]:/userPages/0/components/0": {
+      "global": {
+        "splitterSize": 4,
+        "splitterExtra": 4,
+        "tabEnableRename": false,
+        "borderEnableAutoHide": true
+      },
+      "borders": [],
+      "layout": {
+        "type": "row",
+        "id": "#b60974ab-91df-4c28-aab4-a47fcca820c9",
+        "children": [
+          {
+            "type": "tabset",
+            "id": "#9bcaee57-b4f6-43fb-9f13-80c9a2e018e5",
+            "weight": 144.1544885177453,
+            "children": [
+              {
+                "type": "tab",
+                "id": "child0",
+                "name": "Get Traces",
+                "component": "child0",
+                "enableClose": false
+              }
+            ],
+            "active": true
+          },
+          {
+            "type": "tabset",
+            "id": "#5186b0dc-69f9-4c07-9b56-2cab401bcd12",
+            "weight": 55.8455114822547,
+            "children": [
+              {
+                "type": "tab",
+                "id": "child1",
+                "name": "Terminal",
+                "component": "child1",
+                "enableClose": false
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "__persistentVariables": {
+    "instrument": "3",
+    "TracesProfilesJSONPath": "TableEditor-Profiles.json"
+  }
+}
