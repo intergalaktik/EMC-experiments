@@ -1,24 +1,16 @@
 # EMC-experiments - EEZ Studio EMC
 
-## THIS IS STILL PROOF OF CONCEPT, ONCE I CONFIRM EVERYTING IS WORKING I WILL REMOVE THIS LINE !!!
+### THIS IS STILL PROOF OF CONCEPT, ONCE I CONFIRM EVERYTING IS WORKING I WILL REMOVE THIS LINE !!!
 
-## Check what levels you equipement can handle, tinySA is very sensitive so be carefull!
+### Check what levels you equipement can handle, tinySA is very sensitive so be carefull!
 
-## Do not brodcast any frequency out of it's legal limits!
+### Do not brodcast any frequency out of it's legal limits!
 
-## If you use amplifier connect it to receiving port!
+### If you use amplifier connect it to receiving port!
 
-Initial Software idea
+## Initial Software idea
 
 ![Initial software idea](pictures/Initial_software_flow.png)
-
-V1 version of software
-
-![SW v1.0](pictures/software_v1.png)
-
-Settings tab
-
-![Settings](pictures/settings.png)
 
 ## How to use
 
@@ -156,17 +148,28 @@ Click on "COPY TR4 > DUT" to get device meassurements into graph.
 
 Export your JSON and add it to instrument history, as then you can reuse it any time!
 
-## Work on this project is financed by NLnet foundation
+V1 version of software
 
-![NLnet](https://nlnet.nl/logo/banner.png)
+![SW v1.0](pictures/software_v1.png)
 
-![NGIEntrust](https://nlnet.nl/image/logos/NGI0Entrust_tag.svg)
+Settings screen
 
-This project was funded through the NGI0 Entrust Fund, a fund established by NLnet with financial support from the European Commission's Next Generation Internet programme, under the aegis of DG Communications Networks, Content and Technology under grant agreement No 101069594.
+![Settings](pictures/settings.png)
+
+## Funding
+
+This project is funded through the [NGI Zero Entrust Fund](https://nlnet.nl/entrust), a fund
+established by [NLnet](https://nlnet.nl) with financial support from the European Commission's
+[Next Generation Internet](https://ngi.eu) program. Learn more on the [NLnet project page](https://nlnet.nl/project/Balthazar-Casing/).
+
+[<img src="https://nlnet.nl/logo/banner.png" alt="NLNet foundation logo" width="300" />](https://nlnet.nl)
+[<img src="https://nlnet.nl/image/logos/NGI0Entrust_tag.svg" alt="NGI0 Entrust Logo" width="300" />](https://nlnet.nl/entrust)
 
 https://nlnet.nl/project/BB3-CM4
 
 ## Check up our blogposts
+
+https://intergalaktik.eu/news
 
 ## Contact us
 
