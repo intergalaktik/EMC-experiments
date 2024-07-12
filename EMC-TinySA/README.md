@@ -8,6 +8,10 @@
 
 ### If you use amplifier connect it to receiving port!
 
+## Chamber
+
+As we now have pyramid chamber ![Initial software idea](pictures/pyramid.png) we can do measurements.
+
 ## Initial Software idea
 
 ![Initial software idea](pictures/Initial_software_flow.png)
@@ -45,6 +49,8 @@ Press BACK
 On attenuator set attenuation to for high level - in our case -30dBm
 
 Connect atenuator to receiving tinySA
+
+![Connection](pictures/gain.jpg)
 
 In Spectrum analyser mode set FREQUENCY
 
