@@ -162,6 +162,26 @@ Settings screen
 
 ![Settings](pictures/settings.png)
 
+### Current status
+
+I have received equipment and did some test and I can clearly see device under test noise, and that confirms that measurements are now possible.
+
+But now we need to have more known factors to get real measurements.
+
+Application is now doing everything it should and just needs a slight adjustment.
+
+Now we need I can antennas with known characteristics, and at least one device with known noise...
+
+I have already tried to get some simple laser cut antennas characteristics, but they should be identical so I could get at least close characteristics.
+
+Se we have created PCB anenna design to pich up as much noise in chamber we can.
+
+![Settings](pictures/antenna.png)
+
+I did not run simulation tool on those antennas, as I did not have lot of time for setting up sim environment.
+
+Antenna design is here: https://github.com/intergalaktik/EMC-experiments/tree/main/EMC_antenna
+
 ## Funding
 
 This project is funded through the [NGI Zero Entrust Fund](https://nlnet.nl/entrust), a fund
